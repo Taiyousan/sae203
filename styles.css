@@ -1,0 +1,56 @@
+@media screen and (min-width: 480px) {
+
+/* Header 
+Navbar */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins', 'Helvetica', 'sans-serif';
+}
+
+#navbar {
+    display : grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: black;
+    height: 8vh;
+}
+
+#navbar-logo {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: white;
+    padding-bottom: 10px;
+    padding-left: 10%;
+    grid-column: 1/1;
+}
+
+#navbar-logo img {
+    padding-right: 10px;
+    max-width: 30%;
+    
+}
+
+#navbar-list {
+    grid-column: 2/2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar-list a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* body index */
+
+#corps {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+}
+
+
