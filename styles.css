@@ -12,7 +12,7 @@ Navbar */
 #navbar {
     display : grid;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: black;
+    background-color: red;
     height: 8vh;
 }
 
