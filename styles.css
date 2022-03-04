@@ -14,6 +14,10 @@ a {
 
 /* menu */
 
+header {
+    background: ;
+}
+
 #menumenu {
     background-color: #F2780C;
     position: fixed;
@@ -36,13 +40,11 @@ a {
     position: fixed;
 }
 
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-left: 30px;
-    margin-right: 30px;
+#liste-nav li {
+    padding: 50px;
 }
+
+
 
 .album {
     width: 400px;
@@ -71,3 +73,15 @@ a {
 
     /* Galerie */
 
+    .desc {
+        background-color: #F2780C;
+    }
+
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 80px;
+    }

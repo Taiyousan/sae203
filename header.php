@@ -12,7 +12,7 @@
                                 <img src="images/logo_texte_blanc.png" alt="Logo WishList" style="max-width: 150px;">
                             </a>
                         </h1>
-                        <ul>
+                        <ul id="liste-nav">
                             <li class="active"><a href="index.html"><span>Home</span></a></li>
                             <li><a href="about.html"><span>About</span></a></li>
                             <li><a href="blog.html"><span>Blog</span></a></li>
