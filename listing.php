@@ -10,7 +10,7 @@ require 'header.php';
                 <div class="desc">
                     <div class="gallery">
                         <?php
-                        $mabd = new PDO('mysql:host=localhost;dbname=sae203;charset=UTF8;', 'sae203', 'TheBindingOfIsaacRepentance');
+                        $mabd = new PDO('mysql:host=localhost;dbname=sae203;charset=UTF8;', 'sae203', 'TheBindingOfIsaacRepentanc');
                         $mabd->query('SET NAMES utf8;');
                         $req = "SELECT * FROM jeux INNER JOIN dev ON jeux._dev_id = dev.dev_id";
                         $resultat = $mabd->query($req);
