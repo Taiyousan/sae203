@@ -3,7 +3,7 @@ require 'head.php';
 require 'header.php';
 ?>
 
-<form action="" method="post" data-parsley-validate>
+<form action="form/form_recherche.php" method="post" data-parsley-validate>
     <label for="prix_mini">Note minimale :</label>
     <input type="text" name="note_mini" id="note_mini" data-parsley-type="number">
     <label for="prix_maxi">Note maximale :</label>
@@ -13,7 +13,7 @@ require 'header.php';
 
 <br>
 
-<form action="form_recherche.php">
+<form action="form/form_recherche.php">
     <label for="real">Entrez un nom de réalisateur :</label>
     <input type="search" list="realisateurs" id="real" name="real" autocomplete="off" />
     <datalist id="realisateurs">
