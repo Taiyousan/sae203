@@ -15,7 +15,12 @@ a {
 /* menu */
 
 header {
-    background: red ;
+    background: #4a4a69 ;
+    height: 80px;
+}
+
+.colorlib-nav-toggle {
+    margin-top: 30px;
 }
 
 #menumenu {
@@ -46,26 +51,7 @@ header {
 
 
 
-.album {
-    width: 400px;
-    background-color: lightblue;
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 10px;
-    
-}
 
-.album-image{
-    display: flex;
-    justify-content: center;
-    padding-top: 60px;
-}
-
-.album-image .image{
-    max-width: 200px;
-}
 
 .logo-header {
     width: 150px;
@@ -74,7 +60,8 @@ header {
     /* Galerie */
 
     .desc {
-        background-color: #F2780C;
+        background-color: #b3baca;
+        padding-top : 50px;
     }
 
     .gallery {
@@ -85,3 +72,50 @@ header {
         margin-right: 30px;
         margin-top: 80px;
     }
+
+    .album {
+        width: 400px;
+        background-color: #4a4a69;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-top: 50px;
+        padding-right: 10px;
+        padding-bottom: 50px;
+        padding-left: 10px;
+        
+    }
+    
+    .album-image{
+        display: flex;
+        justify-content: center;
+        padding-top: 60px;
+    }
+    
+    .album-image .image{
+        max-width: 200px;
+    }
+
+/* index */
+
+    #index-corps {
+        background-color: F2780C;
+    }
+
+    #index-desc {
+        background-color: F2780C;
+    }
+
+/* recherche */
+
+#recherche-corps {
+    background-color: #d47827;
+}
+
+#recherche-desc {
+    background-color: #f2770c4b;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
