@@ -1,12 +1,7 @@
-- trouver police
-- finir navbar
-    - logo
-        finaliser logo
-        placer logo
-    - icones
+A FINALISER :
 
-- trouver favicon
-
-REFAIRE CHEMINS JS
-FINIR NAVBAR
-REPONSE FORMULAIRE
+SI J'AI LE TEMPS :
+- ajouter utilisateur admin
+- rendre responsive les pages admin
+    - tableau
+    - pages de confirmations, etc
